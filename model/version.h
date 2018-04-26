@@ -8,8 +8,7 @@
  */
 
 
-
-/#include <stdio.h>
+#include <stdio.h>
 #include <string.h>
 
 int cmpVersion(const char *v1, const char *v2);
