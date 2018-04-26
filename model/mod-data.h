@@ -9,8 +9,12 @@
 
 #include <string.h>
 
-struct mod-data {
-    // 
-    char*   name;
-    char*   title;
-}
+// struct containing the data of a mod
+struct mod-data;
+struct dependency-node;
+
+int modName(mod-data* mod, char* name);
+int modTitle(mod-data* mod, char* title);
+int modVersion(mod-data* mod, char* version);
+int modFactorioVersion(mod-data* mod, char* factorioVersion);
+int 
